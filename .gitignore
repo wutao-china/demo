@@ -1,0 +1,22 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+*/.idea/*
+*.iml
+out
+gen
+abstract/src/main/resources/
+abstract/src/test/
+abstract/target/
+autoconfigure/src/test/
+autoconfigure/target/
+springapplication/src/main/resources/
+springapplication/src/test/
+springapplication/target/
+.idea/workspace.xml
+/autoconfigure/autoconfigure.iml
+/abstract/abstract.iml
+/springapplication/springapplication.iml
+/.idea/
