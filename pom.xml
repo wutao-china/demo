@@ -20,6 +20,8 @@
         <module>autoconfigure</module>
         <module>springapplication</module>
         <module>springmvc</module>
+        <module>springbootwebmvc</module>
+        <module>springbootview</module>
     </modules>
     <dependencies>
     </dependencies>

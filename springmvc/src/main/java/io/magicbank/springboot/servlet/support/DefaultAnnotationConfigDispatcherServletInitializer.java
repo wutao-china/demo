@@ -5,13 +5,13 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 
 public class DefaultAnnotationConfigDispatcherServletInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
-    protected Class<?>[] getRootConfigClasses() {   //web.xml
+    protected Class<?>[] getRootConfigClasses() {   //根容器
 
         return new Class[0];
     }
 
     @Override
-    protected Class<?>[] getServletConfigClasses() {    //dispatcherServlet
+    protected Class<?>[] getServletConfigClasses() {    //dispatcherServlet springmvc容器
 
         return new Class[]{DispatcherServletConfig.class};
     }
