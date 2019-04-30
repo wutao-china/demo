@@ -20,7 +20,7 @@ public class ThymeleafBootstrap {
         // 模板的内容
         //String content = "<p th:text=\"${message}\">!!!</p>";
         DefaultResourceLoader resourceLoader = new DefaultResourceLoader();
-        Resource resource = resourceLoader.getResource("classpath:/tmplates/thymeleaf/helloWorld.html");
+        Resource resource = resourceLoader.getResource("classpath:/templates/thymeleaf/helloWorld.html");
         File file = resource.getFile();
         FileInputStream fileInputStream = new FileInputStream(file);
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
