@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ViewResolver;
+import org.springframework.web.servlet.config.annotation.ContentNegotiationConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -21,13 +22,24 @@ import java.io.File;
 public class WebMvcConfig implements WebMvcConfigurer {
 
     @Bean
-    public ViewResolver viewResolver(){
+    public ViewResolver myViewResolver(){
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-        resolver.setViewClass(JstlView.class);
+        resolver.setViewClass(HandleResourceViewExists.class);
         resolver.setPrefix("/WEB-INF/jsp/");
         resolver.setSuffix(".jsp");
         resolver.setOrder(Ordered.LOWEST_PRECEDENCE - 10);//优先级高于thymeleaf
+
+        // 配置viewResolver的媒体类型
+        //resolver.setContentType("text/xml;charset=UTF-8");
+
         return resolver;
+    }
+
+    @Override
+    public void configureContentNegotiation(ContentNegotiationConfigurer configurer) {
+        configurer.favorParameter(true)
+                .favorPathExtension(true);
+
     }
 
     @Override
