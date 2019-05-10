@@ -22,6 +22,7 @@
         <module>springmvc</module>
         <module>springbootwebmvc</module>
         <module>springbootview</module>
+        <module>springbootrest</module>
     </modules>
     <dependencies>
     </dependencies>

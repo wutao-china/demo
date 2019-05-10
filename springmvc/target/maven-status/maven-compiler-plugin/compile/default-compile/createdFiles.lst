@@ -1,0 +1,6 @@
+io/magicbank/springboot/config/DispatcherServletConfig.class
+io/magicbank/springboot/config/WebMvcConfig$1.class
+io/magicbank/springboot/config/WebMvcConfig.class
+io/magicbank/springboot/controller/HelloWorldController.class
+io/magicbank/springboot/controller/HelloWorldControllerAdvice.class
+io/magicbank/springboot/servlet/support/DefaultAnnotationConfigDispatcherServletInitializer.class

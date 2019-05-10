@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/abstract" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/autoconfigure" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springapplication" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbootrest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbootview" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbootwebmvc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc" charset="UTF-8" />
+  </component>
+</project>
