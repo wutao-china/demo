@@ -9,3 +9,4 @@ public class SpringBootRestBootstrap {
         SpringApplication.run(SpringBootRestBootstrap.class);
     }
 }
+
