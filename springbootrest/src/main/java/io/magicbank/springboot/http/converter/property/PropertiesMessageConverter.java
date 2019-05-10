@@ -1,4 +1,4 @@
-package io.magicbank.springboot.http.support.property;
+package io.magicbank.springboot.http.converter.property;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpInputMessage;
