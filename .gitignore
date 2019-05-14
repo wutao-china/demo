@@ -3,8 +3,8 @@
 ### Example user template
 
 # IntelliJ project files
-*/.idea/*
-*.iml
+*/*.idea/*
+*/*.iml
 out
 gen
 abstract/src/main/resources/
@@ -21,3 +21,4 @@ springapplication/target/
 /springapplication/springapplication.iml
 /.idea/
 */target
+*/*.
