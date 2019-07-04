@@ -22,6 +22,9 @@
         <module>springmvc</module>
         <module>springbootwebmvc</module>
         <module>springbootview</module>
+        <module>springbootrest</module>
+        <module>spring-servlet</module>
+        <module>thread</module>
     </modules>
     <dependencies>
     </dependencies>
