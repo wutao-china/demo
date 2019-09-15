@@ -25,6 +25,7 @@
         <module>springbootrest</module>
         <module>spring-servlet</module>
         <module>thread</module>
+        <module>InvokeTime</module>
     </modules>
     <dependencies>
     </dependencies>
