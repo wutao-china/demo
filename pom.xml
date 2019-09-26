@@ -26,6 +26,7 @@
         <module>spring-servlet</module>
         <module>thread</module>
         <module>RateLimiter</module>
+        <module>InvokeTime</module>
     </modules>
     <dependencies>
     </dependencies>
