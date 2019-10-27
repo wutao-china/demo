@@ -8,33 +8,39 @@
         <outputRelativeToContentRoot value="true" />
         <module name="abstract" />
         <module name="autoconfigure" />
+        <module name="disruptor-order" />
+        <module name="eureka-cli" />
+        <module name="eureka-consumer" />
+        <module name="eureka-ser" />
+        <module name="invoketime" />
+        <module name="RateLimiter" />
+        <module name="spring-servlet" />
         <module name="springapplication" />
         <module name="springbootrest" />
         <module name="springbootview" />
         <module name="springbootwebmvc" />
         <module name="springmvc" />
+        <module name="thread" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="abstract" target="1.8" />
-      <module name="autoconfigure" target="1.8" />
-      <module name="demo" target="1.8" />
-      <module name="springapplication" target="1.8" />
-      <module name="springbootrest" target="1.8" />
-      <module name="springbootview" target="1.8" />
-      <module name="springbootwebmvc" target="1.8" />
-      <module name="springmvc" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RateLimiter" options="-parameters" />
       <module name="abstract" options="-parameters" />
       <module name="autoconfigure" options="-parameters" />
+      <module name="disruptor-order" options="-parameters" />
+      <module name="eureka-cli" options="-parameters" />
+      <module name="eureka-consumer" options="-parameters" />
+      <module name="eureka-ser" options="-parameters" />
+      <module name="invoketime" options="-parameters" />
+      <module name="spring-servlet" options="-parameters" />
       <module name="springapplication" options="-parameters" />
       <module name="springbootrest" options="-parameters" />
       <module name="springbootview" options="-parameters" />
       <module name="springbootwebmvc" options="-parameters" />
       <module name="springmvc" options="-parameters" />
+      <module name="thread" options="-parameters" />
     </option>
   </component>
 </project>
