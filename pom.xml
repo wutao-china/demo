@@ -27,6 +27,9 @@
         <module>thread</module>
         <module>RateLimiter</module>
         <module>InvokeTime</module>
+        <module>disruptor-order</module>
+        <module>eureka-ser</module>
+        <module>eureka-consumer</module>
     </modules>
     <dependencies>
     </dependencies>
