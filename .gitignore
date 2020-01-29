@@ -20,5 +20,7 @@ springapplication/target/
 /abstract/abstract.iml
 /springapplication/springapplication.iml
 /.idea/
-*/target
+**/target
 */*.
+**/rebel.xml
+/springmvc/.extract/
